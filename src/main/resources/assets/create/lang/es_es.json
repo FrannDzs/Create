@@ -813,8 +813,8 @@
 	"create.contraptions.clockwork.hour_first_24": "La manecilla del día primero",
 
 	"create.logistics.filter": "Filtro",
-	"create.logistics.recipe_filter": "Filtro de recetas",
-	"create.logistics.fluid_filter": "Filtro de fluidos",
+	"create.logistics.recipe_filter": "Filtro para recetas",
+	"create.logistics.fluid_filter": "Filtro para fluidos",
 	"create.logistics.firstFrequency": "Freq. #1",
 	"create.logistics.secondFrequency": "Freq. #2",
 	"create.logistics.filter.apply": "Filtro aplicado a %1$s.",
@@ -837,7 +837,7 @@
 	"create.gui.gauge.info_header": "Información sobre el medidor:",
 	"create.gui.speedometer.title": "Velocidad de rotación",
 	"create.gui.stressometer.title": "Estrés de la red",
-	"create.gui.stressometer.capacity": "Capacidad restante",
+	"create.gui.stressometer.capacity": "Carga restante",
 	"create.gui.stressometer.overstressed": "Sobrecargado",
 	"create.gui.stressometer.no_rotation": "Sin rotación",
 	"create.gui.contraptions.not_fast_enough": "Parece que este %1$s no está girando con _suficiente_ velocidad_.",
@@ -1072,7 +1072,7 @@
 	"create.tooltip.stressImpact.medium": "Moderado",
 	"create.tooltip.stressImpact.high": "Alto",
 	"create.tooltip.stressImpact.overstressed": "Sobrecargado",
-	"create.tooltip.capacityProvided": "Capacidad de estrés: %1$s",
+	"create.tooltip.capacityProvided": "Carga de estrés: %1$s",
 	"create.tooltip.capacityProvided.low": "Pequeña",
 	"create.tooltip.capacityProvided.medium": "Media",
 	"create.tooltip.capacityProvided.high": "Grande",
@@ -1278,7 +1278,7 @@
 	"block.create.spout.tooltip.condition2": "Automatización de fluidos",
 	"block.create.spout.tooltip.behaviour2": "El caño colocado encima de una _cinta_ o _depósito_ reaccionará automáticamente con un contenedor de fluidos_ que pase por debajo.",
 
-	"block.create.item_drain.tooltip": "DRENADOR DE ELEMENTOS",
+	"block.create.item_drain.tooltip": "DRENADOR DE OBJETOS",
 	"block.create.item_drain.tooltip.summary": "Un depósito rallado para vaciar tus _objetos de fluidos_.",
 	"block.create.item_drain.tooltip.condition1": "Transferencia de fluidos",
 	"block.create.item_drain.tooltip.behaviour1": "Cuando un _contenedor de fluidos_, como un _cubo_ o una _botella_, se inserta desde el lateral, el desagüe intentará vaciarlo en su propio _contenedor de fluidos_. El artículo será entonces expulsado por el lado opuesto.",
@@ -1314,7 +1314,7 @@
 	"item.create.extendo_grip.tooltip.behaviour1": "Aumenta la _distancia de alcance_ de los objetos usados en la _mano principal_.",
 
 	"item.create.filter.tooltip": "FILTRO",
-	"item.create.filter.tooltip.summary": "Controla las _salidas_ y _entradas_ de los _dispositivos logísticos_ con más precisión, comparándolas con un _conjunto de elementos_ o varios _filtros anidados_.",
+	"item.create.filter.tooltip.summary": "Controla las _salidas_ y _entradas_ de los _dispositivos logísticos_ con más precisión, comparándolas con un _conjunto de objetos_ o varios _filtros anidados_.",
 	"item.create.filter.tooltip.condition1": "Cuando está en la ranura del filtro",
 	"item.create.filter.tooltip.behaviour1": "Controla_ el flujo del elemento según su _configuración_.",
 	"item.create.filter.tooltip.condition2": "Cuando se hace clic derecho",
@@ -1323,7 +1323,7 @@
 	"item.create.attribute_filter.tooltip": "FILTRO DE ATRIBUTOS",
 	"item.create.attribute_filter.tooltip.summary": "Controla las _salidas_ y las _entradas_ de los dispositivos logísticos con más precisión, comparándolas con un _conjunto de atributos_ y _categorías_ de objetos.",
 	"item.create.attribute_filter.tooltip.condition1": "Cuando está en la ranura del filtro",
-	"item.create.attribute_filter.tooltip.behaviour1": "Controla el flujo de elementos según su _configuración_.",
+	"item.create.attribute_filter.tooltip.behaviour1": "Controla el flujo de objetos según su _configuración_.",
 	"item.create.attribute_filter.tooltip.condition2": "Cuando se hace clic derecho",
 	"item.create.attribute_filter.tooltip.behaviour2": "Abre la interfaz de configuración.",
 
@@ -1351,7 +1351,7 @@
 	"item.create.schematic_and_quill.tooltip.action3": "_Reinicia_ y elimina la selección.",
 
 	"block.create.schematicannon.tooltip": "ESQUEMATICAÑÓN",
-	"block.create.schematicannon.tooltip.summary": "Dispara bloques para recrear un _esquema_ desplegado en el mundo. Utiliza elementos de los inventarios adyacentes y _pólvora_ como combustible.",
+	"block.create.schematicannon.tooltip.summary": "Dispara bloques para recrear un _esquema_ desplegado en el mundo. Utiliza objetos de los inventarios adyacentes y _pólvora_ como combustible.",
 	"block.create.schematicannon.tooltip.condition1": "Cuando se hace clic derecho",
 	"block.create.schematicannon.tooltip.behaviour1": "Abre la interfaz.",
 	
@@ -1403,14 +1403,14 @@
 	"block.create.content_observer.tooltip.summary": "_Detecta objetos_ dentro de _contenedores_ y _transportadores_ que coincidan con un _filtro_ configurado. Mientras el _inventario_, la _cinta_ o la _canaleta_ observados _contengan_ un objeto que coincida, este componente emitirá una _señal de redstone_. Cuando un embudo observado _transfiere_ un objeto coincidente, este componente emitirá un _pulso de redstone_.",
 
 	"block.create.adjustable_crate.tooltip": "CAJA AJUSTABLE",
-	"block.create.adjustable_crate.tooltip.summary": "Este _contenedor de elementos_ permite el control manual de su capacidad. Puede contener hasta _16 pilas_ de cualquier objeto. Soporta _comparadores de redstone_.",
+	"block.create.adjustable_crate.tooltip.summary": "Este _contenedor de objetos_ permite el control manual de su capacidad. Puede contener hasta _16 pilas_ de cualquier objeto. Soporta _comparadores de redstone_.",
 	"block.create.adjustable_crate.tooltip.condition1": "Cuando se hace clic derecho",
 	"block.create.adjustable_crate.tooltip.behaviour1": "Abre la interfaz.",
 
 	"block.create.creative_crate.tooltip": "CAJA CREATIVA",
-	"block.create.creative_crate.tooltip.summary": "Este _contenedor de elementos_ permite la replicación infinita de cualquier elemento. Colócalo junto a un _cañón de esquemas_ para eliminar cualquier requisito de material.",
+	"block.create.creative_crate.tooltip.summary": "Este _contenedor de objetos_ permite la replicación infinita de cualquier elemento. Colócalo junto a un _cañón de esquemas_ para eliminar cualquier requisito de material.",
 	"block.create.creative_crate.tooltip.condition1": "Cuando el elemento está en la ranura del filtro",
-	"block.create.creative_crate.tooltip.behaviour1": "Todo lo que se _extraiga_ de este contenedor proporcionará un suministro _ilimitado_ del elemento especificado. Los elementos _insertados_ en esta caja serán _evitados_.",
+	"block.create.creative_crate.tooltip.behaviour1": "Todo lo que se _extraiga_ de este contenedor proporcionará un suministro _ilimitado_ del elemento especificado. Los objetos _insertados_ en esta caja serán _evitados_.",
 
 	"block.create.controller_rail.tooltip": "RAÍL DE CONTROL",
 	"block.create.controller_rail.tooltip.summary": "Un raíl energizado _unidireccional_ capaz de _controlar con precisión_ la _velocidad de movimiento_ de una vagoneta.",
@@ -1464,7 +1464,7 @@
 	"item.create.crafting_blueprint.tooltip": "PLANO DE ELABORACIÓN",
 	"item.create.crafting_blueprint.tooltip.summary": "Colocado en una pared, puede utilizarse para especificar la disposición de los ingredientes para facilitar la elaboración manual. Cada ranura representa una receta",
 	"item.create.crafting_blueprint.condition1": "Al hacer clic derecho en una ranura vacía",
-	"item.create.crafting_blueprint.behaviour1": "Abre un menú que permite configurar una receta y los elementos a mostrar.",
+	"item.create.crafting_blueprint.behaviour1": "Abre un menú que permite configurar una receta y los objetos a mostrar.",
 	"item.create.crafting_blueprint.condition2": "Al hacer clic derecho en una ranura configurada",
 	"item.create.crafting_blueprint.behaviour2": "Aplica la receta configurada con los ingredientes que se encuentran en tu inventario. Se puede utilizar para fabricar hasta una pila de objetos.",
 
@@ -1547,7 +1547,7 @@
 	"create.ponder.andesite_tunnel.text_3": "...dividirá exactamente un elemento de cualquier pila que pase",
 	"create.ponder.andesite_tunnel.text_4": "El resto continuará su camino",
 	
-	"create.ponder.basin.header": "Procesando elementos en la cuenca",
+	"create.ponder.basin.header": "Procesando objetos en la cuenca",
 	"create.ponder.basin.text_1": "Una _cuenca_ puede contener objetos y fluidos para su procesamiento",
 	"create.ponder.basin.text_2": "Después de un paso de procesamamiento, las _cuencas_ intentan descargar por debajo a un lado de ellas",
 	"create.ponder.basin.text_3": "Cuando un ingrediente válido está presente, la _cuenca_ mostrará un _grifo de salida_",
@@ -1556,7 +1556,7 @@
 	"create.ponder.basin.text_6": "Sin _grifo de salida_, la _cuenca_ retendrá los objetos creados en su procesamiento",
 	"create.ponder.basin.text_7": "Esto puede ser útil si las salidas deben ser reutilizadas como ingredientes",
 	"create.ponder.basin.text_8": "Las salidas deseadas tendrán que ser extraídas de la _cuenca_",
-	"create.ponder.basin.text_9": "Podría ser necesario un filtro para evitar sacar los elementos no procesados",
+	"create.ponder.basin.text_9": "Podría ser necesario un filtro para evitar sacar los objetos no procesados",
 
 	"create.ponder.bearing_modes.header": "Modos de movimiento del rodamiento mecánico",
 	"create.ponder.bearing_modes.text_1": "Cuando se detenga, el _rodamiento mecánico_ colocará la estructura en el ángulo más cercano alineado con la cuadrícula",
@@ -1593,7 +1593,7 @@
 	"create.ponder.blaze_burner.text_4": "El proceso de alimentación puede automatizarse utilizando _desplegadores_ o _brazos _mecánicos_",
 
 	"create.ponder.brass_funnel.header": "El embudo de latón",
-	"create.ponder.brass_funnel.text_1": "Los _embudos de andesita_ sólo pueden extraer elementos individuales",
+	"create.ponder.brass_funnel.text_1": "Los _embudos de andesita_ sólo pueden extraer objetos individuales",
 	"create.ponder.brass_funnel.text_2": "Los _embudos de latón_ pueden extraer hasta una pila completa",
 	"create.ponder.brass_funnel.text_3": "Usar la rueda de desplazamiento del ratón en la ranura del filtro permite un control preciso del tamaño de la pila extraída.",
 	"create.ponder.brass_funnel.text_4": "El uso de objetos en la ranura de filtrado restringirá el _embudo_ para transferir sólo las pilas que coincidan.",
@@ -1601,8 +1601,8 @@
 	"create.ponder.brass_tunnel.header": "Usando túneles de latón",
 	"create.ponder.brass_tunnel.text_1": "Los _túneles de latón_ pueden utilizarse para tapar las correas",
 	"create.ponder.brass_tunnel.text_2": "Tienen ranuras de filtro en cada lado abierto",
-	"create.ponder.brass_tunnel.text_3": "Los filtros en las conexiones de entrada simplemente bloquean los elementos que no coincidan",
-	"create.ponder.brass_tunnel.text_4": "Los filtros en las conexiones de salida pueden utilizarse para ordenar los elementos por tipo",
+	"create.ponder.brass_tunnel.text_3": "Los filtros en las conexiones de entrada simplemente bloquean los objetos que no coincidan",
+	"create.ponder.brass_tunnel.text_4": "Los filtros en las conexiones de salida pueden utilizarse para ordenar los objetos por tipo",
 	"create.ponder.brass_tunnel.text_5": "Siempre que un objeto de paso tenga múltiples salidas válidas, el modo de distribución decidirá cómo manejarlo",
 	"create.ponder.brass_tunnel.text_6": "Los _túneles de latón_ en bandas paralelas formarán un grupo",
 	"create.ponder.brass_tunnel.text_7": "Los objetos entrantes se distribuirán ahora por todas las salidas conectadas",
@@ -1738,7 +1738,7 @@
 	"create.ponder.deployer_redstone.text_3": "Por lo tanto, un pulso negativo puede ser utilizado para desencadenar exactamente un ciclo de activación",
 
 	"create.ponder.depot.header": "Usando depósitos",
-	"create.ponder.depot.text_1": "Los _depósitos_ pueden servir como elementos 'fijos' de la _correa_",
+	"create.ponder.depot.text_1": "Los _depósitos_ pueden servir como objetos 'fijos' de la _correa_",
 	"create.ponder.depot.text_2": "Haz clic derecho para colocar o eliminar manualmente objetos del mismo",
 	"create.ponder.depot.text_3": "Al igual que las _correas mecánicas_, pueden proporcionar objetos para su procesamiento",
 	"create.ponder.depot.text_4": "...así como proporcionar objetos a los _brazos mecánicos_",
@@ -1756,7 +1756,7 @@
 	"create.ponder.fan_direction.text_1": "Los _ventiladores revestidos_ utilizan la fuerza de rotación para crear una corriente de aire",
 	"create.ponder.fan_direction.text_2": "La fuerza y la dirección del flujo dependen de la entrada rotacional",
 
-	"create.ponder.fan_processing.header": "Procesamiento de elementos mediante ventiladores revestidos",
+	"create.ponder.fan_processing.header": "Procesamiento de objetos mediante ventiladores revestidos",
 	"create.ponder.fan_processing.text_1": "Al pasar por _lava_, el flujo de aire se calienta",
 	"create.ponder.fan_processing.text_2": "Los objetos capturados en la zona serán fundidos",
 	"create.ponder.fan_processing.text_3": "Los artículos de comida arrojados aquí serán incinerados",
@@ -1907,7 +1907,7 @@
 	"create.ponder.mechanical_arm_modes.text_4": "...funcionará según su configuración",
 	"create.ponder.mechanical_arm_modes.text_5": "Usando la rueda del ratón con una _llave inglesa_ te permitirá configurarlo",
 	"create.ponder.mechanical_arm_modes.text_6": "El modo _Round Robin_ simplemente hace un ciclo a través de todas las salidas que están disponibles",
-	"create.ponder.mechanical_arm_modes.text_7": "Si una salida no puede admitir más elementos, se omitirá",
+	"create.ponder.mechanical_arm_modes.text_7": "Si una salida no puede admitir más objetos, se omitirá",
 	"create.ponder.mechanical_arm_modes.text_8": "El modo _Round Robin forzado_ nunca omitirá las salidas, sino que esperará a que estén libres",
 	"create.ponder.mechanical_arm_modes.text_9": "_Preferir el primero_ da prioridad a las salidas seleccionadas anteriormente al configurar este brazo",
 
@@ -2007,7 +2007,7 @@
 	"create.ponder.millstone.header": "Procesando objetos en la piedra de molino",
 	"create.ponder.millstone.text_1": "Las _piedras de molino_ procesan los objetos mediante la molienda",
 	"create.ponder.millstone.text_2": "Se pueden accionar lateralmente mediante _engranajes...",
-	"create.ponder.millstone.text_3": "... y tirar o insertar elementos en la parte superior",
+	"create.ponder.millstone.text_3": "... y tirar o insertar objetos en la parte superior",
 	"create.ponder.millstone.text_4": "Después de un tiempo, el resultado se puede obtener usando el clic derecho del ratón",
 	"create.ponder.millstone.text_5": "Las salidas también pueden extraerse mediante la automatización",
 
@@ -2071,7 +2071,7 @@
 	"create.ponder.redstone_link.text_2": "Shift + clic derecho para cambiar el modo de recepción",
 	"create.ponder.redstone_link.text_3": "Un simple clic derecho con una _llave inglesa_ puede hacer lo mismo",
 	"create.ponder.redstone_link.text_4": "Los receptores emiten la potencia de redstone de los transmisores en 128 bloques",
-	"create.ponder.redstone_link.text_5": "Colocando elementos en las dos ranuras puede especificar una frecuencia",
+	"create.ponder.redstone_link.text_5": "Colocando objetos en las dos ranuras puede especificar una frecuencia",
 	"create.ponder.redstone_link.text_6": "Sólo se comunicarán los _enlaces_ con frecuencias coincidentes",
 
 	"create.ponder.rope_pulley.header": "Moviendo estructuras con poleas de cuerda",
