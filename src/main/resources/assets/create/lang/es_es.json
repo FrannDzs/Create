@@ -340,7 +340,7 @@
 	"block.create.powered_latch": "Palanca motorizada",
 	"block.create.powered_toggle_latch": "Palanca de cierre motorizada",
 	"block.create.pulley_magnet": "Imán de la polea",
-	"block.create.pulse_repeater": "Repetidor de pulsos de Redstone",
+	"block.create.pulse_repeater": "Repetidor de pulsos de redstone",
 	"block.create.purple_sail": "Vela morada",
 	"block.create.purple_seat": "Asiento morado",
 	"block.create.purple_valve_handle": "Asa de válvula morada",
@@ -348,9 +348,9 @@
 	"block.create.red_sail": "Vela roja",
 	"block.create.red_seat": "Asiento rojo",
 	"block.create.red_valve_handle": "Asa de válvula roja",
-	"block.create.redstone_contact": "Contacto de Redstone",
-	"block.create.redstone_link": "Enlace de Redstone",
-	"block.create.refined_radiance_casing": "Revestidor de radiante",
+	"block.create.redstone_contact": "Contacto de redstone",
+	"block.create.redstone_link": "Enlace de redstone",
+	"block.create.refined_radiance_casing": "Revestidor radiante",
 	"block.create.reinforced_rail": "Raíl reforzado",
 	"block.create.rope": "Cuerda",
 	"block.create.rope_pulley": "Polea de cuerda",
@@ -1391,19 +1391,19 @@
 	"block.create.portable_fluid_interface.tooltip.summary": "Punto de intercambio portátil para _mover fluidos_ hacia y desde una _estructura_ movida por un pistón, rodamiento, vagoneta o polea. Para cumplirse dos interfaces tienen que _enfrentarse_ y estar separadas _1-2 bloques_.",
 	"block.create.portable_fluid_interface.tooltip.condition1": "Mientras se mueve",
 	"block.create.portable_fluid_interface.tooltip.behaviour1": "Interactúa con las _interfaces de almacenamiento portátiles_ estacionarias para transferir fluidos hacia o desde el artilugio. Las tuberías que se inserten en la _interfaz estacionaria_ o se extraigan de ella interactuarán con los depósitos del artilugio directamente. La estructura se paralizará brevemente mientras se intercambian fluidos.",
-	"block.create.portable_fluid_interface.tooltip.condition2": "Cuando es alimentada con Redstone",
+	"block.create.portable_fluid_interface.tooltip.condition2": "Cuando es alimentada con redstone",
 	"block.create.portable_fluid_interface.tooltip.behaviour2": "_Desconecta_ cualquier conexión activa inmediatamente.",
 
 	"block.create.stockpile_switch.tooltip": "INTERRUPTOR DE ACOPIO",
-	"block.create.stockpile_switch.tooltip.summary": "Activa una señal de Redstone en función de la cantidad de _objetos almacenados_ en el _contenedor_ adjunto. Viene con un práctico filtro. A diferencia de un _comparador, el _interruptor de acopio_ permite la configuración de _umbrales_, a partir de los cuales se invierten las señales.",
+	"block.create.stockpile_switch.tooltip.summary": "Activa una señal de redstone en función de la cantidad de _objetos almacenados_ en el _contenedor_ adjunto. Viene con un práctico filtro. A diferencia de un _comparador, el _interruptor de acopio_ permite la configuración de _umbrales_, a partir de los cuales se invierten las señales.",
 	"block.create.stockpile_switch.tooltip.condition1": "Cuando se hace clic derecho",
 	"block.create.stockpile_switch.tooltip.behaviour1": "Abre la interfaz de configuración.",
 
 	"block.create.content_observer.tooltip": "OBSERVADOR DE CONTENIDO",
-	"block.create.content_observer.tooltip.summary": "_Detecta objetos_ dentro de _contenedores_ y _transportadores_ que coincidan con un _filtro_ configurado. Mientras el _inventario_, la _cinta_ o la _canaleta_ observados _contengan_ un objeto que coincida, este componente emitirá una _señal de Redstone_. Cuando un embudo observado _transfiere_ un objeto coincidente, este componente emitirá un _pulso de Redstone_.",
+	"block.create.content_observer.tooltip.summary": "_Detecta objetos_ dentro de _contenedores_ y _transportadores_ que coincidan con un _filtro_ configurado. Mientras el _inventario_, la _cinta_ o la _canaleta_ observados _contengan_ un objeto que coincida, este componente emitirá una _señal de redstone_. Cuando un embudo observado _transfiere_ un objeto coincidente, este componente emitirá un _pulso de redstone_.",
 
 	"block.create.adjustable_crate.tooltip": "CAJA AJUSTABLE",
-	"block.create.adjustable_crate.tooltip.summary": "Este _contenedor de elementos_ permite el control manual de su capacidad. Puede contener hasta _16 pilas_ de cualquier objeto. Soporta _comparadores de Redstone_.",
+	"block.create.adjustable_crate.tooltip.summary": "Este _contenedor de elementos_ permite el control manual de su capacidad. Puede contener hasta _16 pilas_ de cualquier objeto. Soporta _comparadores de redstone_.",
 	"block.create.adjustable_crate.tooltip.condition1": "Cuando se hace clic derecho",
 	"block.create.adjustable_crate.tooltip.behaviour1": "Abre la interfaz.",
 
@@ -1414,8 +1414,8 @@
 
 	"block.create.controller_rail.tooltip": "RAÍL DE CONTROL",
 	"block.create.controller_rail.tooltip.summary": "Un raíl energizado _unidireccional_ capaz de _controlar con precisión_ la _velocidad de movimiento_ de una vagoneta.",
-	"block.create.controller_rail.tooltip.condition1": "Cuando es alimentado por Redstone",
-	"block.create.controller_rail.tooltip.behaviour1": "_Acelera_ o _desacelera_ pasando _vagonetas_ correspondientes a la _fuerza de la señal_. Propaga la energía de Redstone a los raíles de control adyacentes. Al alimentar dos raíles de control con diferentes intensidades, los carriles entre ellos interpolarán su señal.",
+	"block.create.controller_rail.tooltip.condition1": "Cuando es alimentado por redstone",
+	"block.create.controller_rail.tooltip.behaviour1": "_Acelera_ o _desacelera_ pasando _vagonetas_ correspondientes a la _fuerza de la señal_. Propaga la energía de redstone a los raíles de control adyacentes. Al alimentar dos raíles de control con diferentes intensidades, los carriles entre ellos interpolarán su señal.",
 
 	"item.create.sand_paper.tooltip": "PAPEL DE LIJA",
 	"item.create.sand_paper.tooltip.summary": "Un papel rugoso que se puede utilizar para _pulir materiales_. Se puede aplicar automáticamente con el _desplegador_.",
@@ -1520,7 +1520,7 @@
 	"create.ponder.tag.kinetic_appliances": "Dispositivos cinéticos",
 	"create.ponder.tag.kinetic_appliances.description": "Componentes que utilizan la fuerza de rotación",
 	"create.ponder.tag.redstone": "Componentes lógicos",
-	"create.ponder.tag.redstone.description": "Componentes que ayudan a la ingeniería de Redstone",
+	"create.ponder.tag.redstone.description": "Componentes que ayudan a la ingeniería de redstone",
 	"create.ponder.tag.fluids": "Manipuladores de fluidos",
 	"create.ponder.tag.fluids.description": "Componentes que ayudan a transportar y utilizar fluidos",
 
@@ -1624,7 +1624,7 @@
 
 	"create.ponder.cart_assembler.header": "Mover estructuras usando ensambladores de vagonetas",
 	"create.ponder.cart_assembler.text_1": "Los _ensambladores de vagonetas_ montan estructuras adjuntas a las _vagonetas_ que pasan",
-	"create.ponder.cart_assembler.text_2": "Sin una señal de Redstone, desmonta los _artilugios de vagoneta_ que pasan de nuevo en bloques",
+	"create.ponder.cart_assembler.text_2": "Sin una señal de redstone, desmonta los _artilugios de vagoneta_ que pasan de nuevo en bloques",
 	"create.ponder.cart_assembler.text_3": "El uso de una _llave inglesa_ en una _vagoneta_ te permitirá llevar el artilugio a otro lugar",
 
 	"create.ponder.cart_assembler_dual.header": "Ensamblaje de artilugios de vagoneta",
@@ -1677,7 +1677,7 @@
 
 	"create.ponder.clutch.header": "Control de la fuerza de rotación mediante un embrague",
 	"create.ponder.clutch.text_1": "Los _embragues_ transmitirán la rotación en línea recta",
-	"create.ponder.clutch.text_2": "Cuando se alimentan con Redstone, rompen la conexión",
+	"create.ponder.clutch.text_2": "Cuando se alimentan con redstone, rompen la conexión",
 
 	"create.ponder.cog_speedup.header": "Cambio de marchas con engranajes",
 	"create.ponder.cog_speedup.text_1": "Los _engranajes_ grandes y pequeños pueden conectarse en diagonal",
@@ -1732,8 +1732,8 @@
 	"create.ponder.deployer_processing.text_3": "Cuando los objetos se proporcionan en una 'cinta'...",
 	"create.ponder.deployer_processing.text_4": "El _desplegador_ los retendrá y procesará automáticamente",
 
-	"create.ponder.deployer_redstone.header": "Controlando desplegadores con Redstone",
-	"create.ponder.deployer_redstone.text_1": "Al controlar los _desplegadores_ con Redstone, éstos no se activarán",
+	"create.ponder.deployer_redstone.header": "Controlando desplegadores con redstone",
+	"create.ponder.deployer_redstone.text_1": "Al controlar los _desplegadores_ con redstone, éstos no se activarán",
 	"create.ponder.deployer_redstone.text_2": "Antes de detenerse, el _desplegador_ terminará cualquier ciclo iniciado",
 	"create.ponder.deployer_redstone.text_3": "Por lo tanto, un pulso negativo puede ser utilizado para desencadenar exactamente un ciclo de activación",
 
@@ -1768,7 +1768,7 @@
 
 	"create.ponder.fan_source.header": "Generación de fuerza de rotación mediante ventiladores revestidos",
 	"create.ponder.fan_source.text_1": "Los _ventiladores_ orientados hacia una fuente de calor pueden proporcionar fuerza rotacional",
-	"create.ponder.fan_source.text_2": "Cuando se les da una señal de Redstone, los _ventiladores_ comenzarán a proporcionar fuerza",
+	"create.ponder.fan_source.text_2": "Cuando se les da una señal de redstone, los _ventiladores_ comenzarán a proporcionar fuerza",
 
     "create.ponder.fluid_pipe_flow.header": "Transportando fluidos mediante tuberías de cobre",
 
@@ -1803,8 +1803,8 @@
 	"create.ponder.funnel_intro.header": "Usando embudos",
 	"create.ponder.funnel_intro.text_1": "Los _embudos_ son ideales para transferir objetos desde y hacia los inventarios",
 
-	"create.ponder.funnel_redstone.header": "Controlado por Redstone",
-	"create.ponder.funnel_redstone.text_1": "La energía de Redstone impedirá la actuación de cualquier _embudo_",
+	"create.ponder.funnel_redstone.header": "Controlado por redstone",
+	"create.ponder.funnel_redstone.text_1": "La energía de redstone impedirá la actuación de cualquier _embudo_",
 
 	"create.ponder.funnel_transfer.header": "Transferencia directa",
 	"create.ponder.funnel_transfer.text_1": "Los _embudos_ no pueden transferir nunca entre inventarios cerrados directamente",
@@ -1832,7 +1832,7 @@
 	"create.ponder.gantry_direction.text_4": "Se aplican las mismas reglas para la rotación propagada",
 
 	"create.ponder.gantry_redstone.header": "Propagación de la potencia de la grúa",
-	"create.ponder.gantry_redstone.text_1": "Los _ejes de grúa_  alimentados por Redstone dejan de mover sus _carros_",
+	"create.ponder.gantry_redstone.text_1": "Los _ejes de grúa_  alimentados por redstone dejan de mover sus _carros_",
 	"create.ponder.gantry_redstone.text_2": "En su lugar, su fuerza de rotación se transmite al _eje de salida_ de los carros",
 
 	"create.ponder.gantry_shaft.header": "Usando ejes de grúa",
@@ -1847,7 +1847,7 @@
 
 	"create.ponder.gearshift.header": "Controlando la fuerza de rotación mediante una caja de cambios",
 	"create.ponder.gearshift.text_1": "La _caja de cambios_ transmitirá la rotación en línea recta",
-	"create.ponder.gearshift.text_2": "Cuando es alimentada por Redstone, invierte la transmisión",
+	"create.ponder.gearshift.text_2": "Cuando es alimentada por redstone, invierte la transmisión",
 
 	"create.ponder.hand_crank.header": "Generando fuerza de rotación mediante manivelas",
 	"create.ponder.hand_crank.text_1": "Las _manivelas_ pueden ser utilizadas para aplicar fuerza de rotación manualmente",
@@ -1911,8 +1911,8 @@
 	"create.ponder.mechanical_arm_modes.text_8": "El modo _Round Robin forzado_ nunca omitirá las salidas, sino que esperará a que estén libres",
 	"create.ponder.mechanical_arm_modes.text_9": "_Preferir el primero_ da prioridad a las salidas seleccionadas anteriormente al configurar este brazo",
 
-	"create.ponder.mechanical_arm_redstone.header": "Controlando brazos mecánicos con Redstone",
-	"create.ponder.mechanical_arm_redstone.text_1": "Cuando se alimentan con Redstone, los _brazos mecánicos_ no se activan",
+	"create.ponder.mechanical_arm_redstone.header": "Controlando brazos mecánicos con redstone",
+	"create.ponder.mechanical_arm_redstone.text_1": "Cuando se alimentan con redstone, los _brazos mecánicos_ no se activan",
 	"create.ponder.mechanical_arm_redstone.text_2": "Antes de detenerse, terminará los ciclos iniciados",
 	"create.ponder.mechanical_arm_redstone.text_3": "Así, un pulso negativo puede utilizarse para activar exactamente un ciclo de activación",
 
@@ -1928,7 +1928,7 @@
 	"create.ponder.mechanical_crafter.text_5": "Los _ensambladores mecánicos_ requieren fuerza rotacional para funcionar",
 	"create.ponder.mechanical_crafter.text_6": "Haga clic derecho en la parte delantera para insertar objetos manualmente",
 	"create.ponder.mechanical_crafter.text_7": "Una vez que cada ranura de una ruta contenga un objeto, el proceso de elaboración comenzará",
-	"create.ponder.mechanical_crafter.text_8": "Para las recetas que no ocupen totalmente la instalación del _ensamblador_, se puede forzar el arranque utilizando un pulso de Redstone",
+	"create.ponder.mechanical_crafter.text_8": "Para las recetas que no ocupen totalmente la instalación del _ensamblador_, se puede forzar el arranque utilizando un pulso de redstone",
 
 	"create.ponder.mechanical_crafter_connect.header": "Conectando inventarios a los ensambladores mecánicos",
 	"create.ponder.mechanical_crafter_connect.text_1": "Los objetos pueden ser insertados a los _ensambladores mecánicos_ automáticamente",
@@ -2012,7 +2012,7 @@
 	"create.ponder.millstone.text_5": "Las salidas también pueden extraerse mediante la automatización",
 
 	"create.ponder.nixie_tube.header": "Uso de los tubos Nixie",
-	"create.ponder.nixie_tube.text_1": "Cuando son alimentados por Redstone, los _tubos nixie_ mostrarán la fuerza de las señales de Redstone",
+	"create.ponder.nixie_tube.text_1": "Cuando son alimentados por redstone, los _tubos nixie_ mostrarán la fuerza de las señales de redstone",
 	"create.ponder.nixie_tube.text_2": "Con las _etiquetas_ editadas en un _yunque_, pueden mostar un texto personalizado",
 
 	"create.ponder.piston_pole.header": "Pértigas de extensión de pistones",
@@ -2021,7 +2021,7 @@
 
     "create.ponder.portable_fluid_interface.header": "Intercambio de fluidos del artilugio",
 
-	"create.ponder.portable_fluid_interface_redstone.header": "Redstone Control",
+	"create.ponder.portable_fluid_interface_redstone.header": "Control de redstone",
 
 	"create.ponder.portable_storage_interface.header": "Interfaz de almacenamiento portátil",
 	"create.ponder.portable_storage_interface.text_1": "Los jugadores no pueden acceder a los inventarios de los _artilugios en movimiento_.",
@@ -2033,8 +2033,8 @@
 	"create.ponder.portable_storage_interface.text_7": "...o extraerse",
 	"create.ponder.portable_storage_interface.text_8": "Cuando no se hayan intercambiado objetos durante un tiempo, el artilugio seguirá su camino",
 
-	"create.ponder.portable_storage_interface_redstone.header": "Control de Redstone",
-	"create.ponder.portable_storage_interface_redstone.text_1": "La energía de Redstone impedirá que la interfaz de almacenamiento portátil se conecte",
+	"create.ponder.portable_storage_interface_redstone.header": "Control de redstone",
+	"create.ponder.portable_storage_interface_redstone.text_1": "La energía de redstone impedirá que la interfaz de almacenamiento portátil se conecte",
 
 	"create.ponder.powered_latch.header": "Control de señales mediante la palanca motorizada",
 	"create.ponder.powered_latch.text_1": "Las _palancas motorizadas_ son palancas controlables por redstone",
@@ -2104,7 +2104,7 @@
 	"create.ponder.sequenced_gearshift.header": "Controlando la velocidad de rotación mediante la caja de cambios secuenciales",
 	"create.ponder.sequenced_gearshift.text_1": "La _caja de cambios secuencial_ retransmite la rotación siguiendo una lista cronometrada de instrucciones",
 	"create.ponder.sequenced_gearshift.text_2": "Haga clic con el botón derecho para abrir la interfaz de configuración",
-	"create.ponder.sequenced_gearshift.text_3": "Al recibir una señal de Redstone, comenzará a ejecutar su secuencia configurada",
+	"create.ponder.sequenced_gearshift.text_3": "Al recibir una señal de redstone, comenzará a ejecutar su secuencia configurada",
 	"create.ponder.sequenced_gearshift.text_4": "Una vez terminado, espera la siguiente señal de redstone y vuelve a empezar",
 	"create.ponder.sequenced_gearshift.text_5": "Se puede utilizar un _comparador de redstone_ para leer el progreso actual",
 
@@ -2138,7 +2138,7 @@
 	"create.ponder.stabilized_bearings.text_4": "Como resultado, todo el sub-artilugio se mantendrá en posición vertical",
 
 	"create.ponder.sticker.header": "Fijando bloques con stickers",
-	"create.ponder.sticker.text_1": "Los _stickers_ son ideales para la fijación de bloques controlados por Redstone",
+	"create.ponder.sticker.text_1": "Los _stickers_ son ideales para la fijación de bloques controlados por redstone",
 	"create.ponder.sticker.text_2": "Al recibir una señal, cambiarán su estado",
 	"create.ponder.sticker.text_3": "Si ahora se mueve en un _artilugio_, el bloque se moverá con él",
 	"create.ponder.sticker.text_4": "Si se vuelve a activar, el bloque dejará de estar fijado",
@@ -2184,7 +2184,7 @@
 	"create.ponder.weighted_ejector.text_11": "Otras entidades activarán un _eyector_ al pisarlos",
 
 	"create.ponder.weighted_ejector_redstone.header": "Controlando los eyectores de peso con redstone",
-	"create.ponder.weighted_ejector_redstone.text_1": "Cuando se alimentan con Redstone, los _eyectores_ no se activan",
+	"create.ponder.weighted_ejector_redstone.text_1": "Cuando se alimentan con redstone, los _eyectores_ no se activan",
 	"create.ponder.weighted_ejector_redstone.text_2": "Además, los _observadores de contenido_ pueden detectar cuando los _eyectores_ se activan",
 
 	"create.ponder.weighted_ejector_tunnel.header": "Dividiendo pilas de objetos mediante eyectores de peso",
